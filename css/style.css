@@ -5,6 +5,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+    min-width: 1024px;
+    overflow-x: hidden;
+}
+
 body {
     background: linear-gradient(135deg, #1e3a8a, #3b82f6);
     min-height: 100vh;
