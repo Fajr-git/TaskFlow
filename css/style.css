@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     color: white;
 }
+
 nav {
     background: #0f172a;
     padding: 20px 10%;
@@ -30,7 +31,6 @@ nav {
     color: #3b82f6;
     font-size: 24px;
     font-weight: 700;
-    margin-left: -40px;
 }
 
 nav ul {
@@ -67,17 +67,12 @@ nav a {
     padding: 14px 28px;
     border-radius: 10px;
     text-decoration: none;
+    display: inline-block;
 }
 
 .primary {
     background: white;
     color: #1e3a8a;
-}
-
-.secondary {
-    border: 2px solid white;
-    color: white;
-    margin-left: 10px;
 }
 
 .dashboard {
