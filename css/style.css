@@ -8,7 +8,7 @@
 html, body {
     width: 1024px;
     margin: 0 auto;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 body {
@@ -23,6 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .logo {
@@ -152,13 +153,4 @@ nav a {
 .done {
     color: #22c55e;
     font-weight: 600;
-}
-
-@media (max-width: 768px) {
-    body {
-        transform: scale(0.85);
-        transform-origin: top center;
-        width: 1024px;
-        margin: 0 auto;
-    }
 }
