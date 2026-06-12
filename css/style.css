@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    min-height: 100vh;
+    color: white;
+}
+
+nav {
+    background: #0f172a;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #3b82f6;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: -40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.primary {
+    background: white;
+    color: #1e3a8a;
+}
+
+.secondary {
+    border: 2px solid white;
+    color: white;
+    margin-left: 10px;
+}
+
+.features {
+    padding: 80px 10%;
+}
+
+.dashboard {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.task-container {
+    padding: 50px;
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.task-input input,
+.task-input select {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.task-input button {
+    background: #063495;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#taskList li {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.dark {
+    background: #0f172a;
+    color: white;
+}
+
+.dark .card,
+.dark .stat-card,
+.dark #taskList li {
+    background: #1e293b;
+    color: white;
+}
+
+.task-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.complete-btn {
+    background: #22c55e;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.done {
+    color: #22c55e;
+    font-weight: 600;
+}
+
+.task-container h1 {
+    margin-bottom: 20px;
+}

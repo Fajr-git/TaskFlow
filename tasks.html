@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasks</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">TaskFlow</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="tasks.html">Tasks</a></li>
+    </ul>
+</nav>
+
+<div class="task-container">
+
+    <h1>My Tasks</h1>
+
+    <div class="task-input">
+
+        <input
+        type="text"
+        id="taskInput"
+        placeholder="Enter task">
+
+        <select id="priority">
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+        </select>
+
+        <button onclick="addTask()">
+            Add Task
+        </button>
+
+    </div>
+
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
