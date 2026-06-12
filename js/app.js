@@ -36,8 +36,6 @@ function addTask() {
 function completeTask(index) {
 
     tasks[index].completed = true;
-    tasks[index].completed = false;
-
     saveTasks();
     renderTasks();
     updateDashboard();
